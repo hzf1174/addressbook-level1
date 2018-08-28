@@ -268,6 +268,100 @@
 || 
 || 2 persons found!
 || ===================================================
+|| Enter command: edit
+|| [Command entered:edit]
+|| Invalid command format: edit
+|| edit: Edits the information of a person in the address book
+|| 	Parameters: INDEX p/PHONE_NUMBER e/EMAIL
+|| 	Example: edit 1 p/98765432 e/johnd@gmail.com
+||
+|| ===================================================
+|| Enter command: edit the first
+|| [Command entered:edit the first]
+|| Invalid command format: edit
+|| edit: Edits the information of a person in the address book
+|| 	Parameters: INDEX p/PHONE_NUMBER e/EMAIL
+|| 	Example: edit 1 p/98765432 e/johnd@gmail.com
+||
+|| ===================================================
+|| Enter command: edit 3 30 e/30@nus.com
+|| [Command entered:edit 3 30 e/30@nus.com]
+|| Invalid command format: edit
+|| edit: Edits the information of a person in the address book
+|| 	Parameters: INDEX p/PHONE_NUMBER e/EMAIL
+|| 	Example: edit 1 p/98765432 e/johnd@gmail.com
+||
+|| ===================================================
+|| Enter command: edit 1 p/30 30@nus.com
+|| [Command entered:edit 1 p/30 30@nus.com]
+|| Invalid command format: edit
+|| edit: Edits the information of a person in the address book
+|| 	Parameters: INDEX p/PHONE_NUMBER e/EMAIL
+|| 	Example: edit 1 p/98765432 e/johnd@gmail.com
+||
+|| ===================================================
+|| Enter command: edit Betsy Choo p/12345 e/valid@e.mail
+|| [Command entered:edit Betsy Choo p/12345 e/valid@e.mail]
+|| Invalid command format: edit
+|| edit: Edits the information of a person in the address book
+|| 	Parameters: INDEX p/PHONE_NUMBER e/EMAIL
+|| 	Example: edit 1 p/98765432 e/johnd@gmail.com
+||
+|| ===================================================
+|| Enter command: edit 1 p/not_numbers e/valid@e.mail
+|| [Command entered:edit 1 p/not_numbers e/valid@e.mail]
+|| Invalid command format: edit
+|| edit: Edits the information of a person in the address book
+|| 	Parameters: INDEX p/PHONE_NUMBER e/EMAIL
+|| 	Example: edit 1 p/98765432 e/johnd@gmail.com
+||
+|| ===================================================
+|| Enter command: edit 1 Name p/12345 e/notAnEmail
+|| [Command entered:edit 1 Name p/12345 e/notAnEmail]
+|| Invalid command format: edit
+|| edit: Edits the information of a person in the address book
+|| 	Parameters: INDEX p/PHONE_NUMBER e/EMAIL
+|| 	Example: edit 1 p/98765432 e/johnd@gmail.com
+||
+|| ===================================================
+|| Enter command: edit -1 p/123 e/v@e.m
+|| [Command entered:edit -1 p/123 e/v@e.m]
+|| Invalid command format: edit
+|| edit: Edits the information of a person in the address book
+|| 	Parameters: INDEX p/PHONE_NUMBER e/EMAIL
+|| 	Example: edit 1 p/98765432 e/johnd@gmail.com
+||
+|| ===================================================
+|| Enter command: edit 0 p/123 e/v@e.m
+|| [Command entered:edit 0 p/123 e/v@e.m]
+|| The person index provided is invalid
+|| ===================================================
+|| Enter command: edit 10 p/123 e/v@e.m
+|| [Command entered:edit 10 p/123 e/v@e.m]
+|| The person index provided is invalid
+|| ===================================================
+|| Enter command: edit 1 p/123 e/v@e.m
+|| [Command entered:edit 1 p/123 e/v@e.m]
+|| Person edited: Betsy Choo, Phone: 123, Email: v@e.m
+|| ===================================================
+|| Enter command: list
+|| [Command entered:list]
+|| 	1. DickSon Ee  Phone Number: 444444  Email: dickson@nus.edu.sg
+|| 	2. Betsy Choo  Phone Number: 123  Email: v@e.m
+||
+|| 2 persons found!
+|| ===================================================
+|| Enter command: edit 2 p/12345 e/e@v.com
+|| [Command entered:edit 2 p/12345 e/e@v.com]
+|| Person edited: Betsy Choo, Phone: 12345, Email: e@v.com
+|| ===================================================
+|| Enter command: list
+|| [Command entered:list]
+|| 	1. DickSon Ee  Phone Number: 444444  Email: dickson@nus.edu.sg
+|| 	2. Betsy Choo  Phone Number: 12345  Email: e@v.com
+||
+|| 2 persons found!
+|| ===================================================
 || Enter command: || [Command entered:  clear]
 || Address book has been cleared!
 || ===================================================

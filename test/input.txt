@@ -92,6 +92,32 @@
   list
 
 ##########################################################
+# test edit command
+##########################################################
+
+  # should catch invalid args format
+  edit
+  edit the first
+  edit 3 30 e/30@nus.com
+  edit 1 p/30 30@nus.com
+
+  # should catch invalid person data
+  edit Betsy Choo p/12345 e/valid@e.mail
+  edit 1 p/not_numbers e/valid@e.mail
+  edit 1 Name p/12345 e/notAnEmail
+
+   # should catch invalid index
+   edit -1 p/123 e/v@e.m
+   edit 0 p/123 e/v@e.m
+   edit 10 p/123 e/v@e.m
+
+   # should edit correctly
+   edit 1 p/123 e/v@e.m
+   list
+   edit 2 p/12345 e/e@v.com
+   list
+
+##########################################################
 # test clear command
 ##########################################################
 
